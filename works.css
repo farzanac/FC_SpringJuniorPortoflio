@@ -1,0 +1,49 @@
+body{
+    background:#8FA6C9;
+    margin:0;
+    font-family:Georgia, serif;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    border:12px solid #102845;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+}
+nav{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+nav a{
+    background:#6F1B1E;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    margin:10px;
+}
+.projects{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:#f6d1df;
+    padding:15px;
+    box-shadow:4px 4px 10px rgba(0,0,0,.4);
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3{
+    margin-top:15px;
+}
