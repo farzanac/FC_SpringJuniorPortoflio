@@ -16,6 +16,22 @@ header{
     text-align:center;
 }
 
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-content img{
+    width: 80px;
+    height: auto;
+}
+
+.header-content h1{
+    margin: 0;
+}
+
 h1{
     font-size:5rem;
     letter-spacing:10px;
