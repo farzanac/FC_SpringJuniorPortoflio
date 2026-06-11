@@ -1,7 +1,7 @@
 body{
     margin:0;
     background:#8FA6C9;
-    font-family:Lucida Sans Regular;
+    font-family:serif;
 }
 
 .container{
@@ -62,6 +62,7 @@ nav a{
 
 .welcome{
     width:88%;
+    font-family:serif;
 }
 
 .target img{
