@@ -1,14 +1,14 @@
 body{
-    background:#97A8C8;
+    background:#8FA6C9;
     margin:0;
-    font-family:Georgia, serif;
+    font-family:serif;
 }
 
 .container{
     width:90%;
     margin:auto;
     border:12px solid #102845;
-    padding:30px;
+    padding:60px;
 }
 
 nav{
