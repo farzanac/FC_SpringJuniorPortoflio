@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Update these (from Curator Guide) -->
+  <meta name="description" content="Junior Fall Portfolio for Farzana Chinapen" />
+  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
+  <meta name="author" content="Farzana Chinapen" />
+
+  <title>FARZANA CHINAPEN | Junior Fall Portfolio</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="projects.css" />
+
+  <!-- Optional favicon (put your icon file in the same folder) -->
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+  <!-- Optional fonts (only keep if your CSS uses them) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <!-- Replace logo.png with your own image file -->
+        <img src="favicon.png" alt="Logo" />
+      </div>
+
+      <ul class="navbar-right">
+        <li class = "press-start"><a href="index.html">Home</a></li>
+        <li class = "press-start"><a href="projects.html">Projects</a></li>
+        <li class = "press-start"><a href="cfus.html">CFUs</a></li>
+        <li class = "press-start"><a href="aboutme.html">About Me</a></li>
+        <li class = "press-start"><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="home-card">
+
+    <!-- ABOUT / BIO CARD -->
+    <section class="resource-card">
+
+        <div class="bio-text">
+          <p>
+           This part consists some of the unity projects I have completed so far.
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <!-- PROJECT 1 -->
+
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://play.unity.com/en/games/b03e0c43-81eb-4e0f-8c4e-d1a6e9b284c5/my-peace-formers-game" title="Jason's Rocky Island"></iframe>
+
+        <div class="reflection">
+          <h3>Jason's Rocky Island</h3>
+          <p>
+            Jason’s Rocky Island is a blend of arcade-style platforming, a reactive antagonist who alters the world in real-time, and a heartwarming story about family and resilience.Jason the Magnet, a powerful and chaotic enemy who will do anything to stop you. 
+            Players will roll, bounce and dash through rocks and grainy sand while collecting coins and avoiding the big rocks and Jason’s magnetic powers. 
+
+          </p>
+          <p><strong>Skills:</strong> HTML/CSS</p>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT 3 -->
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://play.unity.com/en/games/8d9938a0-3095-47ea-82a6-341aad0bd41c/space-blastersfc" title="Space Blaster"></iframe>
+
+        <div class="reflection">
+          <h3>Space Blaster</h3>
+          <p>
+           A 2D platformer game where you play as a spaceship and  
+
+
+          </p>
+          <p><strong>Skills:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="resource-card">
+    <p>© <span id="year"></span> FARZANA CHINAPEN | Junior Spring Portfolio</p>
+  </footer>
+
+  <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
