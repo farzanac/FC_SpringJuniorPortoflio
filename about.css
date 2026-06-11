@@ -40,8 +40,15 @@ nav a{
     color:#f3c4da;
     padding:30px;
     width:500px;
+    border:6px dotted white;
 }
 
 .bio h1{
     text-align:center;
+}
+
+footer{
+    text-align:center;
+    margin-top:100px;
+    color:white;
 }
