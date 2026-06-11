@@ -1,7 +1,7 @@
 body{
     margin:0;
     background:#97A8C8;
-    font-family:Georgia, serif;
+    font-family:Lucida Sans Regular;
 }
 
 .container{
@@ -17,7 +17,7 @@ header{
 }
 
 h1{
-    font-size:4rem;
+    font-size:5rem;
     letter-spacing:10px;
     color:#111;
 }
