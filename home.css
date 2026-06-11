@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background:#97A8C8;
+    background:#8FA6C9;
     font-family:Lucida Sans Regular;
 }
 
@@ -47,7 +47,7 @@ nav{
 
 nav a{
     text-decoration:none;
-    background:#243D63;
+    background:#6F1B1E;
     color:white;
     padding:15px 25px;
     font-weight:bold;
@@ -61,7 +61,7 @@ nav a{
 }
 
 .welcome{
-    width:50%;
+    width:88%;
 }
 
 .target img{
