@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Update these (from Curator Guide) -->
+  <meta name="description" content="Junior Fall Portfolio for FARZANA CHINAPEN" />
+  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
+  <meta name="author" content="FARZANA CHINAPEN" />
+
+  <title>FARZANA CHINAPEN | Junior Fall Portfolio</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="contacts.css" />
+
+  <!-- Optional favicon (put your icon file in the same folder) -->
+  <link rel="icon" type="image/x-icon" href="lettera.png" />
+
+  <!-- Optional fonts (only keep if your CSS uses them) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <!-- Replace logo.png with your own image file -->
+        <img src="favicon.png" alt="Logo" />
+      </div>
+
+      <ul class="navbar-right">
+        <li class = "press-start"><a href="index.html">Home</a></li>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="projects.html">Projects</a> ▼</button>
+            <div class="dropdown-content">
+              <a href="projects.html#section1">Fall Term</a>
+              <a href="projects.html#section2">Spring Term</a>
+              <a href="projects.html#section3">Itch.IO</a>
+            </div>
+          </div>
+        <li class = "press-start"><a href="cfus.html">CFUs</a></li>
+        <li class = "press-start"><a href="aboutme.html">Creator</a></li>
+        <li class = "press-start"><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+   <section class="resource-card">
+      <h2>Links</h2>
+
+      <div class="skill-images">
+        <!-- Old portfolio -->
+        <a href="https://thomas-a-edison-cte-hs.github.io/farzanac/" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" alt="Old Portfolio" />
+          </div>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:farzanac5@nycstudents.net" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="email_icon.png" alt="Email" />
+          </div>
+        </a>
+
+        <!-- LinkedIn (or other) -->
+        <a href="PASTE-LINKEDIN-OR-OTHER" target="_blank" rel="noopener">
+          <div class="picture">
+            <img class="link-pic" src="linkedin_icon.png" alt="LinkedIn" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+     <!-- FOOTER -->
+ <footer class="resource-card">
+    <p>© <span id="year"></span> FARZANA CHINAPEN | Junior Fall Portfolio</p>
+  </footer>
+
+  <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
