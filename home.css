@@ -1,197 +1,108 @@
-* {
-  box-sizing: border-box;
+body{
+  font-family:fantasy;
+  color: #ffffff;
+  margin:0;
+  background:#0d2748;
 }
 h1 {
-  letter-spacing: 3px;
-  font-family:fantasy;
-}
-
-body {
-  margin: 0;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #8FA6C9;
-  color: #f0f0f0;
-  background-size: cover;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-  letter-spacing: 2px;
+  letter-spacing:3px;
   word-spacing: 2px;
 }
-
-/* =========================
-   NAVBAR
-========================= */
-.navbar {
-  background-color: #102845;
-  padding: 1em 2em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav{
+  background:#6F1B1E;
+  padding:15px;
+  text-align:center;
 }
 
-.navbar-left img {
-  height: 35px;
+nav a{
+  text-decoration:none;
+  margin:0 15px;
 }
 
-.navbar-right {
-  list-style: none;
-  display: flex;
-  gap: 2em;
-  margin: 0;
-  padding: 0;
+.container{
+  padding:50px;
+  text-align:center;
 }
 
-.navbar-right a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.card{
+  background:#8FA6C9;
+  padding:30px;
+  max-width:700px;
+  margin:auto;
+  border-radius:10px;
+}
+nav{
+  background:#D3A1BE;
+  height:100px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 40px;
 }
 
-.navbar-right a:hover {
-  color: #aa6b6b;
+.logo{
+  font-size:32px;
 }
 
-/* =========================
-   PAGE LAYOUT
-========================= */
-.home-card {
-  max-width: 1200px;
-  margin: 2em auto;
-  padding: 1em;
+nav ul{
+  list-style:none;
+  display:flex;
+  align-items:center;
+ 
 }
 
-/* =========================
-   CARDS
-========================= */
-.resource-card {
-  background-color: rgba(21, 36, 86, 0.95);
-  margin: 2em auto;
-  padding: 1.5em;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+nav ul li{
+  position:relative;
 }
 
-/* =========================
-   BIO SECTION
-========================= */
-.bio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+nav a{
+  color:#0d2748;
+  text-decoration:none;
+  font-size:30px;
+  font-weight:bold;
+  transition:.3s;
 }
 
-.bio-pic img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #ffffff;
-  object-fit: cover;
+nav a:hover{
+  color:#bcd7ff;
 }
 
-.bio-text h1 {
-  margin-bottom: 0.2em;
+/* Dropdown */
+
+.dropdown-menu{
+  position:absolute;
+  top:45px;
+  left:0;
+  background:#8FA6C9;
+  min-width:220px;
+  border-radius:12px;
+  border-color:#6F1B1E;
+  display:none;
+  flex-direction:column;
+  padding:10px 0;
+  z-index:1000;
 }
 
-.bio-text h4 {
-  margin-top: 0;
-  font-weight: normal;
-  color: #ffffff;
+.dropdown-menu li{
+  width:100%;
 }
 
-/* =========================
-   PROJECT LAYOUT
-========================= */
-.project {
-  display: flex;
-  gap: 1.5em;
-  align-items: flex-start;
+.dropdown-menu a{
+  display:block;
+  padding:12px 20px;
+  font-size:18px;
 }
 
-.project iframe {
-  flex: 2;
-  min-width: 320px;
-  height: 450px;
-  border: none;
-  background-color: white;
-  border-radius: 8px;
+.dropdown-menu a:hover{
+  background:#8FA6C9;
 }
 
-.reflection {
-  flex: 1;
-  background-color: rgba(12, 3, 90, 0.569);
-  padding: 1em;
-  border-radius: 8px;
+.dropdown:hover .dropdown-menu{
+  display:flex;
 }
-
-.reflection h3 {
-  margin-top: 0;
-  color: #ffffff;
-}
-
-.reflection p {
-  font-size: 0.95em;
-  color: #dddddd;
-}
-
-/* =========================
-   LINKS / ICONS
-========================= */
-.skill-images {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
-  margin-top: 1em;
-}
-
-.picture {
-  transition: transform 0.2s ease;
-}
-
-.picture:hover {
-  transform: scale(1.05);
-}
-
-.link-pic {
-  height: 80px;
-  width: 80px;
-  border-radius: 10px;
-  border: 2px solid white;
-  object-fit: cover;
-}
-
-/* =========================
-   FOOTER
-========================= */
-footer {
-  text-align: center;
-  font-size: 0.85em;
-  color: #cccccc;
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-@media (max-width: 900px) {
-  .project {
-    flex-direction: column;
-  }
-
-  .project iframe {
-    width: 100%;
-    min-width: 0;
-    height: 350px;
-  }
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  .navbar-right {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+ 
+footer{
+    text-align:center;
+    margin-top:100px;
+    color:white;
 }

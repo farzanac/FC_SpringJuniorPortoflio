@@ -1,108 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Update these (from Curator Guide) -->
-  <meta name="description" content="Junior Fall Portfolio for FARZANA CHINAPEN" />
-  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
-  <meta name="author" content="FARZANA CHINAPEN" />
-
-
-  <title>FARZANA CHINAPEN | Junior Fall Portfolio</title>
-
-  <!-- Main stylesheet -->
-  <link rel="stylesheet" href="home.css" />
-
-  <!-- Optional favicon (put your icon file in the same folder) -->
-  <link rel="icon" type="image/x-icon" href="Favicon-pin.png" />
-
-  <!-- Optional fonts (only keep if your CSS uses them) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
-</head>
-
-<body>
-
-  <!-- NAVBAR -->
-  <header>
-    <nav class="navbar">
-      <div class="navbar-left">
-        <!-- Replace logo.png with your own image file -->
-        <img src="Favicon-pin.png" alt="Logo" />
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="Favicon-pin.png" alt="Logo" width="60px">
       </div>
 
-      <ul class="navbar-right">
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="labs.html">Labs</a></li>
-        <li><a href="about.html">About Ee</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
+
+        <li class="dropdown">
+          <a href="projects.html">Projects ▾</a>
+
+          <ul class="dropdown-menu">
+            <li><a href="unity-projects.html">Unity Projects</a></li>
+            <li><a href="labs.html">Labs</a></li>
+          </ul>
+        </li>
+
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contacts</a></li>
       </ul>
     </nav>
-  </header>
 
-  <!-- MAIN CONTENT -->
-  <main class="home-card">
-
-    <!-- ABOUT / BIO CARD -->
-    <section class="resource-card">
-      <div class="bio">
-        <div class="bio-pic">
-          <!-- Replace profile.jpg with your own image file -->
-          <img src="profile.jpeg" alt="Your Photo" />
-        </div>
-
-        <div class="bio-text">
-          <h1>FARZANA CHINAPEN</h1>
-          <h4>Student at THOMAS A EDISON HS</h4>
-          <p>
-            Hello! I'm Farzana a student web developer with skills for coding and technology. Here is my portfolio.
-        </div>
+    <div class="container">
+      <div class="card">
+        <img src="profile.jpeg" alt="Your Photo" width="150px">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Hello! Welcome to my portfolio website.
+          Here you'll find my projects, labs,
+          background information, and contact details.
+        </p>
       </div>
-    </section>
-
-
-    <!-- PROJECTS SECTION (repeatable blocks) -->
-    <section class="resource-card">
-      <h2>Featured Projects</h2>
-      <p>Each project includes an embed and a reflection from your Curator Guide.</p>
-    </section>
-
-    <!-- PROJECT 1 -->
-    <section class="resource-card">
-      <div class="project">
-        <iframe src="https://py3.codeskulptor.org/#user310_yk8yS16RvN_4.py" title="Project 1"></iframe>
-
-        <div class="reflection">
-          <h3>Holiday Animation Project</h3>
-          <p>
-            My Christmas themed project, which includes a snowman with small animations around it.(3–5 sentences).
-          </p>
-          <p><strong>Skills:</strong> PYTHON, CSS, ANIMATION </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECT 2 -->
-    <section class="resource-card">
-      <div class="project">
-        <iframe src="PASTE-PROJECT-LINK-2" title="Project 2"></iframe>
-
-        <div class="reflection">
-          <h3>Project Title 2</h3>
-          <p>
-            Paste your curated reflection for Project 2 here (3–5 sentences).
-          </p>
-          <p><strong>Skills:</strong> (list skills here)</p>
-        </div>
-      </div>
-    </section>
-
-
-  </main>
+    </div>
 
   <!-- FOOTER -->
   <footer class="resource-card">
