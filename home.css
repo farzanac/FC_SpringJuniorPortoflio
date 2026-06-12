@@ -33,6 +33,14 @@ nav a{
   margin:auto;
   border-radius:10px;
 }
+
+.resource-card {
+  background-color: #8FA6C9;
+  padding: 30px;
+  max-width:700px;
+  margin: auto;
+  border-radius: 10px;
+}
 nav{
   background:#D3A1BE;
   height:100px;
@@ -76,10 +84,9 @@ nav a:hover{
   position:absolute;
   top:45px;
   left:0;
-  background:#8FA6C9;
+  background:#889bb8;
   min-width:220px;
   border-radius:12px;
-  border-color:#6F1B1E;
   display:none;
   flex-direction:column;
   padding:10px 0;
