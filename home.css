@@ -101,3 +101,37 @@ footer{
     margin-top:100px;
     color:white;
 }
+
+.project-grid{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.project-card{
+    background:#8FA6C9;
+    width:350px;
+    padding:30px;
+    border-radius:15px;
+    text-decoration:none;
+    color:#0d2748;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    background:#b8c8e0;
+}
+
+.project-card h2{
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.project-card p{
+    font-size:18px;
+    line-height:1.5;
+}
