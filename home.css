@@ -65,6 +65,7 @@ nav a:hover{
   color:#bcd7ff;
 }
 
+
 /* Dropdown */
 
 .dropdown-menu{
@@ -156,6 +157,30 @@ footer{
     font-size:18px;
     line-height:1.6;
 }
+
+
+.skill-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.picture {
+  transition: transform 0.2s ease;
+}
+.picture:hover {
+  transform: scale(1.05);
+}
+
+.link-pic {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
 
 .card{
   background:#8FA6C9;
