@@ -1,45 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Me</title>
-    <link rel="stylesheet" href="about.css">
+    <title>About Me | FARZANA CHINAPEN</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="Favicon-pin.png">
 </head>
+
 <body>
+
+<nav>
+    <div class="logo">
+        <img src="Favicon-pin.png" alt="Logo" width="60px">
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li class="dropdown">
+            <a href="projects.html">Projects ▾</a>
+
+            <ul class="dropdown-menu">
+                <li><a href="unity-projects.html">Unity Projects</a></li>
+                <li><a href="labs.html">Labs</a></li>
+            </ul>
+        </li>
+
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+</nav>
 
 <div class="container">
 
-<nav>
-    <a href="index.html">HOME</a>
-    <a href="works.html">WORKS</a>
-</nav>
+    <h1>ABOUT ME</h1>
 
-<section class="about">
+    <div class="card">
 
-    <img src="profile.jpeg" alt="Profile">
+        <img src="profile.jpeg"
+             alt="Farzana Chinapen"
+             width="200px">
 
-    <div class="bio">
-
-        <h1>ABOUT ME</h1>
+        <h2>Hello, I'm Farzana!</h2>
 
         <p>
-            Hey, my name is Farzana Chinapen.
-            I am a junior at Thomas A. Edison CTE High School.
-
-            I am in the Web and App Development
-            program and enjoy learning new technologies.
-
-            My favorite food is sushi!
+            I am a student at Thomas A. Edison High School with a passion
+            for technology, creativity, and problem-solving.
+            I enjoy learning new programming languages,
+            designing websites, and creating interactive projects.
         </p>
 
     </div>
 
-</section>
+    <div class="card">
 
-<footer>
-    © 2026 Farzana Chinapen
-</footer>
+        <h2>Skills</h2>
+
+        <p>
+            • HTML & CSS<br>
+            • Unity & C#<br>
+            • Web Design<br>
+            • Problem Solving
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Interests</h2>
+
+        <p>
+            insert text
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Future Goals</h2>
+
+        <p>
+            insert text
+        </p>
+
+    </div>
 
 </div>
+
+<footer>
+    <p>© <span id="year"></span> FARZANA CHINAPEN | Junior Fall Portfolio</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+new Date().getFullYear();
+</script>
 
 </body>
 </html>
