@@ -1,49 +1,142 @@
 body{
-    background:#8FA6C9;
-    margin:0;
-    font-family:Georgia, serif;
+  font-family:fantasy;
+  color: #ffffff;
+  margin:0;
+  background:#0d2748;
 }
-
-.container{
-    width:90%;
-    margin:auto;
-    border:12px solid #102845;
-    padding:30px;
-}
-
-h1{
-    text-align:center;
+h1 {
+  letter-spacing:3px;
+  word-spacing: 2px;
 }
 nav{
-    text-align:center;
-    margin-bottom:40px;
+  background:#6F1B1E;
+  padding:15px;
+  text-align:center;
 }
 
 nav a{
-    background:#6F1B1E;
-    color:white;
-    padding:12px 20px;
-    text-decoration:none;
-    margin:10px;
+  text-decoration:none;
+  margin:0 15px;
 }
-.projects{
+
+.container{
+  padding:50px;
+  text-align:center;
+}
+
+.card{
+  background:#8FA6C9;
+  padding:30px;
+  max-width:700px;
+  margin:auto;
+  border-radius:10px;
+}
+nav{
+  background:#D3A1BE;
+  height:100px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 40px;
+}
+
+.logo{
+  font-size:32px;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  align-items:center;
+ 
+}
+
+nav ul li{
+  position:relative;
+}
+
+nav a{
+  color:#0d2748;
+  text-decoration:none;
+  font-size:30px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+nav a:hover{
+  color:#bcd7ff;
+}
+
+/* Dropdown */
+
+.dropdown-menu{
+  position:absolute;
+  top:45px;
+  left:0;
+  background:#8FA6C9;
+  min-width:220px;
+  border-radius:12px;
+  border-color:#6F1B1E;
+  display:none;
+  flex-direction:column;
+  padding:10px 0;
+  z-index:1000;
+}
+
+.dropdown-menu li{
+  width:100%;
+}
+
+.dropdown-menu a{
+  display:block;
+  padding:12px 20px;
+  font-size:18px;
+}
+
+.dropdown-menu a:hover{
+  background:#8FA6C9;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:flex;
+}
+ 
+footer{
+    text-align:center;
+    margin-top:100px;
+    color:white;
+}
+
+.project-grid{
     display:flex;
     justify-content:center;
     gap:40px;
     flex-wrap:wrap;
+    margin-top:40px;
 }
 
-.card{
-    width:280px;
-    background:#f6d1df;
-    padding:15px;
-    box-shadow:4px 4px 10px rgba(0,0,0,.4);
+.project-card{
+    background:#8FA6C9;
+    width:350px;
+    padding:30px;
+    border-radius:15px;
+    text-decoration:none;
+    color:#0d2748;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
 
-.card img{
-    width:100%;
+.project-card:hover{
+    transform:translateY(-8px);
+    background:#b8c8e0;
 }
 
-.card h3{
-    margin-top:15px;
+.project-card h2{
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.project-card p{
+    font-size:18px;
+    line-height:1.5;
 }
