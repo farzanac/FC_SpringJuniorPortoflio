@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unity Projects | FARZANA CHINAPEN</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="Favicon-pin.png">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        <img src="Favicon-pin.png" alt="Logo" width="60px">
+    </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li class="dropdown">
+            <a href="projects.html">Projects ▾</a>
+
+            <ul class="dropdown-menu">
+                <li><a href="unity-projects.html">Unity Projects</a></li>
+                <li><a href="labs.html">Labs</a></li>
+            </ul>
+        </li>
+
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <h1>UNITY PROJECTS</h1>
+    <h3>These are my favorite projects that I made from Unity</h3>
+    
+    <div class="card">
+
+        <h2>🎮 Game Title #1</h2>
+
+        <img src="project1.png"
+             alt="Unity Project"
+             width="300px">
+
+        <p>
+            Brief description of your game.
+            Explain what the goal is, what you learned,
+            and what tools you used.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🎮 Game Title #2</h2>
+
+        <img src="project2.png"
+             alt="Unity Project"
+             width="300px">
+
+        <p>
+            Another project description.
+        </p>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© <span id="year"></span> FARZANA CHINAPEN | Junior Fall Portfolio</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+new Date().getFullYear();
+</script>
+
+</body>
+</html>

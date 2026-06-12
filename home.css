@@ -8,6 +8,9 @@ h1 {
   letter-spacing:3px;
   word-spacing: 2px;
 }
+h3 {
+  letter-spacing:3px;
+}
 
 nav a{
   text-decoration:none;
@@ -134,4 +137,22 @@ footer{
 .project-card p{
     font-size:18px;
     line-height:1.5;
+}
+
+.card img{
+    margin-top:15px;
+    margin-bottom:15px;
+    border-radius:10px;
+    max-width:100%;
+}
+
+.card h2{
+    color:#0d2748;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#0d2748;
+    font-size:18px;
+    line-height:1.6;
 }
