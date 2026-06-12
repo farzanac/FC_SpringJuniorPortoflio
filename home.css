@@ -2,7 +2,11 @@ body{
   font-family:fantasy;
   color: #ffffff;
   margin:0;
-  background:#0d2748;
+  background-image:url("2nd\ Sample\ background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1 {
   letter-spacing:3px;
